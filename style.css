@@ -1,0 +1,20 @@
+
+:root{--bg:#f7f8fb;--card:#ffffff;--accent:#2b6ef6;--muted:#6b7280;--maxw:1000px}
+*{box-sizing:border-box}body{font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:#111;margin:0}
+.container{max-width:var(--maxw);margin:0 auto;padding:24px}
+.header, .hero{padding:40px 0;text-align:center}
+.hero{background:linear-gradient(180deg,white,transparent);padding-top:32px;padding-bottom:18px}
+.profile{width:120px;height:120px;border-radius:12px;object-fit:cover;border:3px solid #e6edf8;box-shadow:0 6px 20px rgba(43,110,246,0.08);display:block;margin:0 auto 12px}
+h1{margin:0;font-size:28px}
+.lead{color:var(--muted);margin:6px 0 12px}
+.contact a{color:var(--accent);text-decoration:none}
+h2{font-size:20px;margin:16px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(16,24,40,0.04)}
+.btn{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+.btn.outline{background:transparent;color:var(--accent);border:1px solid rgba(43,110,246,0.14);margin-left:8px}
+.project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.skills-grid{display:flex;flex-wrap:wrap;gap:8px}
+.skills-grid span{background:white;padding:8px 10px;border-radius:8px;box-shadow:0 4px 12px rgba(16,24,40,0.04);font-weight:600}
+.footer{padding:18px 0;text-align:center;color:var(--muted);margin-top:20px}
+@media (max-width:600px){.container{padding:16px};h1{font-size:22px};.profile{width:96px;height:96px}}
