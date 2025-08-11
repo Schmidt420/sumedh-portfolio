@@ -4,6 +4,15 @@
 .container{max-width:var(--maxw);margin:0 auto;padding:24px}
 .header, .hero{padding:40px 0;text-align:center}
 .hero{background:linear-gradient(180deg,white,transparent);padding-top:32px;padding-bottom:18px}
+.skills-category {
+  margin-bottom: 24px;
+}
+
+.skills-category h4 {
+  margin-bottom: 8px;
+  color: var(--accent);
+}
+
 .profile{width:120px;height:120px;border-radius:12px;object-fit:cover;border:3px solid #e6edf8;box-shadow:0 6px 20px rgba(43,110,246,0.08);display:block;margin:0 auto 12px}
 h1{margin:0;font-size:28px}
 .lead{color:var(--muted);margin:6px 0 12px}
